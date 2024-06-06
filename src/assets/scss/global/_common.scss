@@ -1,0 +1,15 @@
+@use './mixin' as *;
+@use './variables' as *;
+
+body {
+  font-size: 18px;
+  font-family:$ff-base;
+  color:#101010;
+  line-height:100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
