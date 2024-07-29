@@ -1,3 +1,1 @@
-window.addEventListener('DOMContentLoaded', function(){
- window.alert('main.js');
-})
+window.addEventListener('DOMContentLoaded', function(){})

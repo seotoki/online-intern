@@ -1,18 +1,16 @@
 // font size
-
+$fs-h1: 40px;
+$fs-p: 18px;
 
 // font-family
-$ff-base: "noto-sans-cjk-jp",sans-serif;
+$cardo: "Cardo", serif;
 
 // 太さ
-$fw-bold: bold;
-$fw-medium: 500;
-$fw-small: 400;
+$cardo-regular:400;
+$cardo-bold:700;
 
 // 色
-$fc-white: #fff;
-$fc-base: #101010;
-$bg-white: #fff;
+$fc-white: #ffffff;
 
 // コンテンツサイズ
 $wd-content-pc: 1170px;

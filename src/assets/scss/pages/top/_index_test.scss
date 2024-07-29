@@ -1,6 +1,88 @@
-@use '../../global/mixin' as *;
-@use '../../global/variables' as *;
+@use '../../global/_mixin' as *;
+@use '../../global/_variables' as *;
 
-h1 {
-    color: blue;
-}
+
+body { 
+    background-image: url("../../image/tokyotower.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    
+    main {
+        font-family: $cardo;
+        font-weight: $cardo-regular;
+        color: white;
+
+        h1 {
+            margin: 1rem;
+            font-size: 96px;
+            font-weight: $cardo-regular;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 48px;
+            font-weight: $cardo-regular;
+            text-align: center;
+        }
+
+        p {
+            font-size: 24px;
+        }
+
+        a {
+            color: white;
+        }
+        
+        header {
+            width: fit-content;
+            margin: 62px auto 0 auto;
+            
+            ul {
+                width: 1067px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                li {
+                    list-style: none;
+                    // font-size: 24px;
+                    .p-menu {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        a {
+                            padding-right: 48px;
+                        }
+                        a:nth-child(2) {
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .l-wrapper {
+            width: 948px;
+            margin: 186px auto 257px auto;
+
+            .p-button {
+                margin-top: 259px;
+                width: 948px;
+                display: flex;
+                justify-content: space-between;
+
+                button {
+                    width: 250px;
+                    height: 89px;
+                    border-radius: 50px;
+                    border: none;
+                    color: white;
+                    background-color: rgba(0, 0, 0, 0.3);
+                    cursor: pointer;
+                }
+            }
+            }
+        }
+    }
+
